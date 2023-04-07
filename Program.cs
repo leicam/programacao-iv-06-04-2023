@@ -6,6 +6,7 @@
         {
             #region tipos inteiros
 
+            //tipo de valor
             var inteiroUm = int.MinValue;
             var inteiroDois = int.MaxValue;
 
@@ -55,6 +56,13 @@
             #endregion tipos ponto flutuante
 
             #region outros tipos
+
+            var dataUm = DateTime.Now;
+
+            Console.WriteLine(dataUm.ToString("dd/MM/yyyy"));
+            Console.WriteLine(dataUm.ToString("yyyy/MM/dd"));
+            Console.WriteLine(dataUm.ToString("MM/dd/yyyy"));
+
 
             var booleanoUm = false;
             var booleanoDois = true;
